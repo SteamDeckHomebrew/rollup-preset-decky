@@ -21,6 +21,8 @@ function generateConfig(manifest) {
         input: './src/index.tsx',
         plugins: [
             del({ targets: './dist/*', force: true }),
+            typescript(),
+            json(),
             commonjs(),
             nodeResolve({
                 browser: true
@@ -31,8 +33,6 @@ function generateConfig(manifest) {
                 '@decky/ui': 'DFL',
                 '@decky/manifest': JSON.stringify(manifest)
             }),
-            typescript(),
-            json(),
             replace({
                 preventAssignment: false,
                 'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),

@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/SteamDeckHomebrew/rollup-preset-decky/compare/v1.0.0...v1.0.1) (2024-07-09)
+
+
+### Bug Fixes
+
+* **plugins:** put typescript plugin at the front ([ca664bf](https://github.com/SteamDeckHomebrew/rollup-preset-decky/commit/ca664bf4642960bf2461da33a9f8d4705733657e))
+
 # 1.0.0 (2024-07-09)
 
 

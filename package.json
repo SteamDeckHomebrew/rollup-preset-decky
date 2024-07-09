@@ -1,6 +1,6 @@
 {
   "name": "@decky/rollup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decky plugin rollup config template",
   "main": "src/index.js",
   "type": "module",

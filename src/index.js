@@ -16,7 +16,7 @@ import externalGlobals from 'rollup-plugin-external-globals';
  *
  * @returns {import('rollup').RollupOptions}
  */
-function generateConfig(manifest) {
+export function generateConfig(manifest) {
     return {
         input: './src/index.tsx',
         plugins: [
@@ -73,5 +73,5 @@ export default function deckyPlugin(options = {}, sourceRoot = ".") {
     const manifest = JSON.parse(readFileSync(join(sourceRoot, "plugin.json"), "utf-8"));
     const defaultOptions = generateConfig(manifest);
 
-    return mergeAndConcat(options, defaultOptions)
+    return mergeAndConcat(defaultOptions, options)
 }

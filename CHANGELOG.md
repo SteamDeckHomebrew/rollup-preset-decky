@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/SteamDeckHomebrew/rollup-preset-decky/compare/v1.0.1...v1.0.2) (2025-11-20)
+
+
+### Bug Fixes
+
+* **config:** add jsx alias ([fa51c33](https://github.com/SteamDeckHomebrew/rollup-preset-decky/commit/fa51c3378c5edacc6915d4b8470509acfe957826))
+
 ## [1.0.1](https://github.com/SteamDeckHomebrew/rollup-preset-decky/compare/v1.0.0...v1.0.1) (2024-07-09)
 
 

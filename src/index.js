@@ -29,6 +29,7 @@ function generateConfig(manifest) {
             }),
             externalGlobals({
                 react: 'SP_REACT',
+                'react/jsx-runtime': 'SP_JSX',
                 'react-dom': 'SP_REACTDOM',
                 '@decky/ui': 'DFL',
                 '@decky/manifest': JSON.stringify(manifest)
